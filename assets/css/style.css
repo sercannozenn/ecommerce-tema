@@ -466,6 +466,7 @@ header nav li.active a.nav-link:before{
     padding-inline-end: 5px;
     padding-bottom: 2px;
     letter-spacing: 1px;
+    background-color: rgb(245 151 60 / 21%);;
 }
 
 .wrapper-product .product-info .product-title{
@@ -501,3 +502,105 @@ footer li a{
 footer li a:hover{
     color:#fff;
 }
+
+/* Main */
+main {
+    padding: 30px;
+}
+
+.sortby{
+    border: unset;
+    padding-right: 5px;
+    font-size: 14px;
+}
+.product-list-info .product-count{
+    font-size: 12px;
+}
+
+.product-filter{
+    max-height: calc(100vh - 240px);
+    overflow: hidden scroll;
+    position: sticky;
+    top: 0;
+}
+
+.product-filter .filter-item-wrapper{
+    position: relative;
+    border-bottom: 1px solid #ececec;
+    padding: 20px 0;
+}
+
+.product-filter .filter-title{
+    font-size: 14px;
+}
+.filter-detail{
+    max-height: 100px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.filter-item input[type=checkbox]{
+    min-width: 15px;
+    min-height: 15px;
+    border-radius: 2px;
+    position: relative;
+    cursor: pointer;
+    border: solid 1.5px #d6d6d6;
+}
+.filter-item input[type=checkbox]:checked{
+    background-color: #f38509;
+}
+.filter-item input[type=checkbox]:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.filter-item label{
+    font-size: 13px;
+}
+.filter-price input{
+    font-size: 11px;
+}
+.filter-price input::placeholder{
+    font-size: 10px;
+}
+.filter-price input:focus{
+    border-color: #f38509;
+    box-shadow: none;
+}
+
+.filter-price button{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+.filter-price button:hover{
+    color: #f38509;
+}
+
+.filter-price > *{
+    padding-left: 12px;
+    padding-right: 3px;
+}
+
+/* Pagination */
+.pagination li.active a,
+.pagination li a:hover{
+    background: #ffe115;
+    color: #2d3a4b;
+}
+
+.pagination li a{
+    background-color: #2d3a4b;
+    color: #fff;
+    margin: 0 2px;
+    height: 23px;
+    width: 23px;
+    text-align: center;
+    line-height: 23px;
+    font-size: 12px;
+    position: relative;
+    float: left;
+}
+
