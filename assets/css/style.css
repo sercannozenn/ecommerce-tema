@@ -814,7 +814,8 @@ main {
     font-weight: 300;
     font-size: 12px;
 }
-.card-page table div
+.card-page table div,
+.my-orders table div
 {
     font-size: 11px;
 }
@@ -1027,4 +1028,28 @@ main {
 }
 .btn-contracts-approve:hover{
     background-color: #b76306 !important;
+}
+
+/* Orders Detail */
+
+.s-amount div{
+    font-size: 12px;
+}
+.my-orders table td{
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.my-orders img{
+    width: 100px;
+}
+.my-orders .card,
+.my-orders .card-header{
+    border-color: #f38509;
+}
+.my-orders .card-header{
+    background-color: rgb(243 133 7 / 38%);
+}
+.my-orders .grand-total{
+
 }
