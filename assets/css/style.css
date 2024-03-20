@@ -808,14 +808,19 @@ main {
 .card-page table img{
     width: 100px;
 }
-.card-page table th{
+.card-page table th,
+.my-orders table th
+{
     font-weight: 300;
     font-size: 12px;
 }
-.card-page table div{
+.card-page table div
+{
     font-size: 11px;
 }
-.card-page table td{
+.card-page table td,
+.my-orders table td
+{
     vertical-align: middle;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -825,7 +830,14 @@ main {
 .card-page table tfoot,
 .card-page table th,
 .card-page table thead,
-.card-page table tr
+.card-page table tr,
+
+.my-orders table tbody,
+.my-orders table td,
+.my-orders table tfoot,
+.my-orders table th,
+.my-orders table thead,
+.my-orders table tr
 {
     border-color: #f38509;
 }
