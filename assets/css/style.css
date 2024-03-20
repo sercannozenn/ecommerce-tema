@@ -902,3 +902,117 @@ main {
     font-size: 12px;
     height: 40px;
 }
+
+/* Order Detail Wrapper Checkout Sayfası*/
+.order-detail-wrapper{
+
+}
+.order-detail-wrapper h6{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.order-detail-wrapper h6:before{
+    width: 90px;
+    height: 2px;
+    background-color: #2d3a4b;
+    border: none;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    margin-top: 30px;
+}
+.order-detail-wrapper label{
+    width: 100%;
+    font-size: 12px;
+}
+.order-detail-wrapper input,
+.order-detail-wrapper select,
+.order-detail-wrapper textarea
+{
+    border: 1px solid #2d3a4b;
+    height: 45px;
+    float: left;
+    width: 100%;
+    font-size: 11px;
+    padding: 0 10px;
+    letter-spacing: 1px;
+    display: inline-block;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.order-detail-wrapper textarea
+{
+    height: inherit;
+    resize: none;
+}
+.order-detail-wrapper .nav-tabs .nav-link{
+    position: relative;
+    padding-bottom: 10px;
+    border: unset;
+    color: inherit;
+    font-size: 12px;
+}
+.order-detail-wrapper .nav-tabs .nav-link::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: #f38509;
+    transition: width 0.3s ease;
+}
+.order-detail-wrapper .nav-tabs .nav-link.active::after{
+    width: 100%;
+}
+.order-detail-wrapper .nav-tabs .nav-link:focus,
+.order-detail-wrapper .nav-tabs .nav-link:hover
+{
+    border-color: unset;
+}
+
+/* Contract */
+.contract{
+    display: flex;
+    font-size: 11px;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+}
+
+.contract label{
+    margin: 5px 10px;
+}
+
+.contract a{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.contract input{
+    width: 20px;
+    height: 20px;
+}
+/* Contract Modal */
+.text-wrapper h1,
+.text-wrapper h2,
+.text-wrapper h3,
+.text-wrapper h4,
+.text-wrapper h5,
+.text-wrapper h6{
+    font-size: 12px;
+}
+
+.contracts-text-wrapper{
+    max-height: 150px;
+    overflow-y: scroll;
+    padding: 30px 0;
+    background-color: #fafafa;
+}
+
+.contract-text {
+    width: 80%;
+    font-size: 12px;
+}
+.btn-contracts-approve:hover{
+    background-color: #b76306 !important;
+}
