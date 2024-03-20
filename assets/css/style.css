@@ -803,3 +803,102 @@ main {
     box-shadow: none;
 }
 
+/* Card Sayfası */
+
+.card-page table img{
+    width: 100px;
+}
+.card-page table th{
+    font-weight: 300;
+    font-size: 12px;
+}
+.card-page table div{
+    font-size: 11px;
+}
+.card-page table td{
+    vertical-align: middle;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.card-page table tbody,
+.card-page table td,
+.card-page table tfoot,
+.card-page table th,
+.card-page table thead,
+.card-page table tr
+{
+    border-color: #f38509;
+}
+
+.card-page table .piece-wrapper .input-group{
+    width: 150px;
+}
+
+.card-page table .piece-wrapper .input-group span{
+    height: unset;
+    line-height: unset;
+}
+
+/* Card Basket Detail */
+.btn-approve-basket{
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    padding: 0;
+}
+.btn-approve-basket:hover{
+    background-color: #c66b05;
+}
+.basket-detail{
+    height: 100%;
+    background-color: #f7f7f7;
+    position: sticky;
+    top: 0;
+}
+
+.grand-total{
+    border: 1px solid #f38509;
+    padding: 30px;
+}
+
+.grand-total p {
+    font-size: 12px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.grand-total p:last-child{
+    border-bottom: unset;
+    font-size: 14px;
+}
+
+.grand-total i{
+    cursor: pointer;
+}
+
+.grand-total i:hover{
+    color: #f38509;
+}
+.discount-wrapper{
+    border: 1px solid #ebebeb;
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+
+.discount-wrapper h5{
+    font-size: 12px;
+}
+
+.discount-wrapper input{
+    font-size: 12px;
+    height: 40px;
+}
+
+.discount-wrapper input:focus{
+    border-color: #f38509;
+    box-shadow: unset;
+}
+
+.discount-wrapper button{
+    font-size: 12px;
+    height: 40px;
+}
